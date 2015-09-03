@@ -1,0 +1,25 @@
+/* CSS declarations go here */
+body {
+  font-family: sans-serif;
+}
+.node rect {
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+  color:#fff;
+}
+.link {
+  fill: none;
+  stroke: #024;
+  stroke-opacity: .2;
+}
+.link:hover {
+  stroke-opacity: .5;
+}
+
+.axis line,
+.axis path {
+  stroke-width:1; 
+  fill: none;
+  stroke: #00a0c6;
+  shape-rendering: crispEdges;
+}
